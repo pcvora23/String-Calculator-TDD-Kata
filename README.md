@@ -45,7 +45,7 @@ Add("1\n2,3") => 6
 
 Add("//;\n1;2") => 3
 
-Add("-1,2,-3") => Exception: "negatives not allowed: -1, -3"
+Add("-1,2,-3") => Exception: "Negative numbers not allowed: -1, -3"
 
 Add("2,1001") => 2
 
